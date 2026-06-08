@@ -287,7 +287,7 @@ export default function Home() {
               <div className="project-card-header">
                 <h3 className="project-title">VoltAgent</h3>
                 <a 
-                  href="https://github.com/volt-agent/volt-agent" 
+                  href="https://github.com/voltagent/voltagent" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="project-link"
@@ -299,9 +299,18 @@ export default function Home() {
                 Core contributor to VoltAgent, a high-performance agentic AI framework.
               </p>
               <ul className="contribution-list font-mono-ui">
-                <li>Integrated Claude model support using the Anthropic AI SDK (TypeScript) [Feature #10].</li>
-                <li>Added multi-modal input support (images/files) for LLMs [PR #110].</li>
-                <li>Fixed JSON Schema to Zod schema parsing bug for better automated validation [Issue #87].</li>
+                <li>
+                  Integrated Claude model support using the Anthropic AI SDK (TypeScript){" "}
+                  <a href="https://github.com/VoltAgent/voltagent/issues/10" target="_blank" rel="noopener noreferrer" className="contribution-link">[Feature #10]</a>.
+                </li>
+                <li>
+                  Added multi-modal input support (images/files) for LLMs{" "}
+                  <a href="https://github.com/VoltAgent/voltagent/pull/110" target="_blank" rel="noopener noreferrer" className="contribution-link">[PR #110]</a>.
+                </li>
+                <li>
+                  Fixed JSON Schema to Zod schema parsing bug for better automated validation{" "}
+                  <a href="https://github.com/VoltAgent/voltagent/issues/87" target="_blank" rel="noopener noreferrer" className="contribution-link">[Issue #87]</a>.
+                </li>
                 <li>Contributed to code review and collaborative discussions to ensure alignment.</li>
               </ul>
               <div className="project-tags">
